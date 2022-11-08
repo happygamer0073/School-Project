@@ -1,0 +1,264 @@
+section.All
+{   background-color: black;
+    width: auto;
+    height: auto;
+    padding: 12px 10px; 
+    text-align: center;
+	font-family: Constantia;
+	font-weight: bold;
+	color: white;
+ }
+ 
+header
+{   background-color: #343B3F; 
+    padding:10px;
+}
+section.Main
+{   
+    background-color: #686A6C;
+    padding: 10px;
+    text-align: left;
+}
+
+nav.Header ul li 
+{   display: inline-block;  
+    margin: 10px;  
+    transition: 0.2s ease-in;
+    
+}
+nav.Header{
+    background-color: #120539;
+}
+nav.Header a
+{   text-decoration: none;    
+    padding: 3px 10px;   
+    background-color: black;
+    color: white;
+}
+footer
+{
+    padding: 10px;
+    background-color: #343B3F;
+    text-align: left;
+
+}
+img.NFS
+{
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    transition: 0.2s ease-in;
+    border: 1px solid transparent;
+
+}
+img.NFS:hover{
+    transform: scale(1.02)  translateY(8px);
+    border: 1px solid gold;
+    opacity: 1;
+
+}
+img.GT{
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    transition: 0.2s ease-in;
+    border: 1px solid transparent;
+}
+
+img.GT:hover{
+    transform: scale(1.02)  translateY(8px);
+    border: 1px solid gold;
+    opacity: 1;
+
+}
+img.FH{
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    transition: 0.2s ease-in;
+    border: 1px solid transparent;
+
+}
+img.FH:hover{
+    transform: scale(1.02)  translateY(8px);
+    border: 1px solid gold;
+    opacity: 1;
+
+}
+nav.Header a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+}
+nav.Header ul li:hover{
+    transform: scale(1.1);
+    
+}
+section.Between_header_and_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.picture{
+    width: 612px;
+    height: 330px;
+    margin: 3px 5px 15px 5px;  
+
+}
+body{
+    background-color: #929292;
+}
+section.NFS{
+    background-color: black;
+    width: auto;
+    height: auto;
+    padding: 12px 10px; 
+    text-align: center;
+	font-family: Constantia;
+	font-weight: bold;
+	color: white;
+}
+.game{
+    background-color: #686A6C;
+    padding: 10px;
+    text-align: left;
+    font-size: 19px;
+
+}
+.game_main{
+    display: flex;
+    justify-content: space-between;
+}
+.EA{
+    height: 200px;
+    width: 200px;
+}
+.EArts{
+    height: 200px;
+    width: 290px;
+}
+nav.back ul li{   
+    display: inline-block;  
+    margin: 10px;  
+    transition: 0.2s ease-in;
+    
+}
+
+nav.back a{
+    text-decoration: none;
+    transition: 0.1s ease-in;
+    font-size: 18px;
+    padding: 3px 10px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+nav.back a:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+    
+
+h2{
+    text-align: center;
+}
+.company{
+    background-color: #686A6C;
+    padding: 10px;
+    text-align: left;
+    font-size: 19px;
+}
+.padding{
+    padding: 10px;
+    font-size: 20px;
+}
+.company_main{
+    display: flex;
+    justify-content: space-between;
+}
+.NFS2015{
+    height: 210px;
+    width: 380px;
+}
+.PB{
+    height: 210px;
+    width: 380px;
+    padding: 0px 5px;
+}
+.facts{
+    background-color: #686A6C;
+    padding: 10px;
+    text-align: left;
+    font-size: 19px;
+}
+section.Forza{
+    background-color: black;
+    width: auto;
+    height: auto;
+    padding: 12px 10px; 
+    text-align: center;
+	font-family: Constantia;
+	font-weight: bold;
+	color: white;
+}
+.FH4, .FM7{
+    height: 210px;
+    width: 380px;
+    padding: 0px 1.5px;
+}
+
+.ForzaMotorsports_main{
+    display: flex;
+    justify-content: space-between;
+}
+.ForzaMotorsports{
+    background-color: #686A6C;
+    padding: 10px;
+    text-align: left;
+    font-size: 19px;
+}
+.header1{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.stylebutton{
+    padding: 5px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: #929292;
+}
+.button2:hover{
+    background-color: black;
+    color: white;
+}
+.button3:hover{
+    background-color: white;
+    color: black;
+
+}
+.TurnStudios{
+    height: 210px;
+    width: 210px;
+    padding: 3px;
+}
+.PG{
+    height: 210px;
+    width: 210px;
+}
+.GT1{
+    height: 200px;
+    width: 310px;
+    padding: 2px;
+    margin-top: 13px;
+}
+.DG{
+    height: 180px;
+    width: 350px;
+    margin-left: 5px;
+}
